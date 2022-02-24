@@ -48,7 +48,7 @@ namespace MathCalcBurner
 
             var taskCount = 4;
 
-            Console.WriteLine($"Using {taskCount} tasks in parallel... See: http://localhost:1234");
+            Console.WriteLine($"Running {taskCount} tasks in parallel... See: http://localhost:1234");
             Console.WriteLine("==================================================================");
 
             for (var i = 0; i < taskCount; i++)
