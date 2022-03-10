@@ -27,7 +27,7 @@ namespace MathCalcBurner
 
             if (!File.Exists("equations.txt"))
             {
-                Console.WriteLine("ERR: No equations.txt found.");
+                Console.WriteLine("Error: No equations.txt found.");
                 Console.ReadLine();
                 return;
             }
